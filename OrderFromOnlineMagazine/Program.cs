@@ -13,7 +13,6 @@ namespace OrderFromOnlineMagazine
                 Console.WriteLine("Товар в заказе {0}, {1}, {2}, {3}",item.Code, item.Name, item.Type, item.Price);
             }
             Console.ReadKey();
-        
         }
     }
 }

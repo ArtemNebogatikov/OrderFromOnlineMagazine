@@ -13,6 +13,10 @@ namespace OrderFromOnlineMagazine
         public int Number;
 
         public string Description;
+        /// <summary>
+        /// Добавление товаров в заказ
+        /// </summary>
+        /// <returns></returns>
         public Product[] AddProductToOrder() 
         {
             StructOrder structOrder = new StructOrder();
